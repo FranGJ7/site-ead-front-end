@@ -1,5 +1,6 @@
 import Head from "next/head"
-import HeaderNoAuth from "../src/components/homeNoAut/headerNoAuth";
+import HeaderNoAuth from "../src/components/homeNoAuth/headerNoAuth";
+import PresentationSection from "../src/components/homeNoAuth/presentationSection";
 import  styles  from "../styles/HomeNoAuth.module.scss"
 
 
@@ -14,7 +15,10 @@ const HomeNoAuth = () =>{
     <meta name="description" content="Onebitflix" key="title"/>
     </Head>
     <main>
+      <div className={styles.sectionBackground}>
       <HeaderNoAuth/>
+      <PresentationSection/>
+      </div>
     </main>
     </>
   );
