@@ -7,9 +7,6 @@ interface props{
     course: CourseType[];
 }
 
-
-
-
 const SlideComponent = function ({course}:props) {
     return<>
     <div>
