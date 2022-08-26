@@ -29,11 +29,11 @@ const HomeNoAuth = ({course}: IndexPageProps) =>{      //4° recebendo as props
       <PresentationSection/>
       </div>
       <CardsSection/>
-      <SlideSection newestCourses={course}/>                             //1° Criar função a baixo
+      <SlideSection newestCourses={course}/>                            
     </main>
     </>
   );
-};
+}; //1° Criar função a baixo ^
 
 export const getStaticProps: GetStaticProps = async ()=>{
   const res = await courseService.getNewestCourses();               // 2° obter as informações por está função
