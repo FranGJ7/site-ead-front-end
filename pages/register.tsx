@@ -1,6 +1,6 @@
 import styles from "../styles/registerLogin.module.scss";
 import Head from "next/head";
-import HeaderGeneric from "../src/components/common/heaedrGeneric";
+import HeaderGeneric from "../src/components/common/headerGeneric";
 import { Container, Input, Button, Form, FormGroup, Label } from "reactstrap";
 import Footer from "../src/components/common/footer";
 import { FormEvent, useState } from "react";
@@ -58,8 +58,8 @@ const Register = function () {
                 <script src="https://jsuites.net/v4/jsuites.js"></script>
             </Head>
             <main className={styles.main}>
-                <Container className="py-5">
-                    <HeaderGeneric logoUrl="/" btnUrl="/login" btnContent="Quero fazer login" />
+            <HeaderGeneric logoUrl="/" btnUrl="/login" btnContent="Quero fazer login" />
+                <Container>
                     <p className={styles.formTitle}>Bem-vindo(a) ao OneBitFlix!</p>
                     <Form className={styles.form} onSubmit={handleRegister}>
                         <p className="text-center">
