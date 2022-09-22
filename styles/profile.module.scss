@@ -92,6 +92,8 @@
   font-size: 15px;
   padding: 6px 20px;
   transition: 0.4s;
+  display: block;
+  margin: 0 auto;
   &:hover {
     border-color: $darkRed;
     background-color: transparent;
@@ -118,6 +120,12 @@
   &:hover {
     border-color: $lightRed;
     color: $lightGray;
+    background-color: transparent;
+  }
+  &:active{
+    background-color: transparent;
+  }
+  &:focus{
     background-color: transparent;
   }
 }
