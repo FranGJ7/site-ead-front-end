@@ -6,8 +6,6 @@ interface props {
     course: CourseType;
 }
 
-
-
 const SlideCard = function ({course}: props) {
     return (
     <>

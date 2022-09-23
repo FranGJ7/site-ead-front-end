@@ -4,6 +4,7 @@ import courseService, { CourseType } from "../../../services/courseService";
 import HeaderAuth from "../../common/headerAuth";
 import { Button, Container } from "reactstrap";
 import Link from "next/link";
+import PageSpinner from "../../common/spinner";
 
 
 const FeaturedSection = function () {
@@ -12,12 +13,8 @@ const FeaturedSection = function () {
 
     if (error) return error;
     if (!data) 
-    return (
-    <>
-         <p>Loading...</p>
-       
-    </>);
-      
+    return <PageSpinner/>
+
     return(
     <>
     {data.data.map((course: CourseType)=>(
