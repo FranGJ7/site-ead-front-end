@@ -1,4 +1,6 @@
-Site EAD de programação feito com aulas da OneBitCode trabalho Fullstack, assistindo aulas e escrevendo os códigos junto com os professores, projeto feito para entender como funciona projetos grandes aprendendo sobre estrutura e organização das pastas e componentes aprendendo a total integração do Back-end com o Front-End aulas bem eslcarecedora e tirou muitas dúvidas e clariou muito minha cabeça com essa experiência, aprendendo também back-end mais trabalhado, completa responsividade com varios elementos em tela, comunicação de cada slide com requisição ao Back-End, agora próximo passo e criar site com o que aprendi neste projeto mas com finalidade diferente, assim que termina este projeto paralelo para por em prática o que aprendi vou colocar o link logo aqui a baixo obrigado por ler até aqui. 
+Site EAD de programação feito com aulas da OneBitCode com projeto Fullstack, assistindo aulas e escrevendo os códigos junto com os professores, projeto feito para entender como funciona projetos grandes aprendendo sobre estrutura e organização das pastas e componentes. <br>
+Aprendendo a total integração do Back-end com o Front-End aulas bem eslcarecedora e tirou muitas dúvidas e clariou muito minha cabeça com essa experiência, aprendendo também Back-end complexo.<br>
+Completa responsividade com varios elementos em tela, comunicação de cada slide com requisição ao Back-End.
 
 
 
